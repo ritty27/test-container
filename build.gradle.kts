@@ -17,6 +17,12 @@ dependencies {
 	// JetBrains
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+	// Test Container
+	implementation("org.testcontainers:junit-jupiter:1.16.2")
+
+	// Test
+	testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
 }
 
 tasks.withType<KotlinCompile> {
